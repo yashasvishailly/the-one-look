@@ -7,11 +7,11 @@ This repository is a small, frontend-only recreation of [The One Look](https://y
 ## What is included
 
 - Responsive landing page matching the source's typographic, editorial layout.
-- Working URL/email form with consent validation.
+- A sample-result preview that requires no email or website address.
 - Presentation-only result state for demonstrating the interface, including a score, perception signals, a newest-signal summary, and a highest-cost summary.
 - Accessible labels, keyboard-friendly controls, responsive navigation, and a small dependency surface.
 
-This is a UI prototype. It does not include or document the live service's private implementation, scoring model, data handling, or operational workflow.
+The page explicitly labels itself as a UI prototype, uses a fixed score of 80, and makes no scanner or email requests. Its navigation leads to the corresponding main-site pages and its privacy link describes this preview. It does not include or document the live service's private implementation, scoring model, data handling, or operational workflow.
 
 ## What a user can expect
 
